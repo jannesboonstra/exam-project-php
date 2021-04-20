@@ -1,0 +1,235 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(29, 22, 43);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 65rem;
+}
+
+.main {
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+}
+
+ul {
+    align-items: center;
+    height: 1rem;
+    display: flex;
+    gap: 3rem;
+    flex: 1;
+    justify-content: center;
+    font-size: 2rem;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.link {
+    border: 1px white solid;
+    border-radius: .4rem;
+    padding: .3rem;
+    padding-right: .8rem;
+    padding-left: .8rem;
+}
+
+.link:hover {
+    background-color: white;
+    color: rgb(29, 22, 43);
+}
+
+.toevoegen, .extra {
+    border: 1px white solid;
+    border-radius: .5rem;
+    padding: 1rem;
+    align-self: center;
+}
+
+.aanpassen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.toevoegen {
+    width: 15rem;
+}
+
+.extra {
+    width:15rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input, select {
+    width: 15rem;
+}
+
+#blur{
+    position: relative;
+    filter:blur(.2rem);
+}
+
+#toevoegen {
+    background-color:   rgb(29, 22, 43);
+}
+
+#center, #centertwee {
+    position: absolute;
+    margin-top: 7rem;
+    left: 0;
+    right: 0;
+    margin-left: calc(50% - 7.5rem);
+
+}
+
+#teams {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#voegen {
+    padding: 1rem;
+    margin: 2rem;
+    width: 12rem;
+    font-size: 1rem;
+}
+
+#authen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#uitloggen {
+    position: relative;
+    height: 2rem;
+    width: 50rem;
+}
+
+#uitlogknop {
+    position: absolute;
+    right: 0;
+}
+
+#cookie {
+    position: absolute;
+    top:.2rem;
+    left:0;
+}
+
+.textarea {
+    resize: none;
+    width: 15rem;
+    height: 4rem;
+}
+
+.formsubmit {
+    width: 8rem;
+    align-self: center;
+    background-color: rgb(29, 22, 43);
+    color: white;
+    border: 1px white solid;
+    border-radius: .3rem;
+}
+
+.teams {
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+    height: 20rem;
+    border: 1px white solid;
+    border-radius: .3rem;
+    margin: .5rem;
+
+}
+
+.formdiv {
+    padding: .5rem;
+    border-radius: .2rem;
+}
+
+.formsubmit:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+table, td {
+    position: relative;
+    text-align: center;
+}
+
+td {
+    padding: 0.1rem .5rem 0.1rem .5rem;
+}
+
+.delete {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    border: 1px white solid;
+    background-color: red;
+    color: white;
+}
+
+.delete:hover {
+    cursor: pointer;
+}
+
+.edit {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    border: 1px white solid;
+    background-color: green;
+    color: white;
+}
+
+.edit:hover {
+    cursor: pointer;
+}
+
+.readonly {
+    color: black;
+    background-color: lightgray;
+    border-color: black;
+}
+
+.aligntable {
+    text-align: start;
+}
+
+.extrasmall {
+    font-size: .2rem;
+}
